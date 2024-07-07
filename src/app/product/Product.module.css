@@ -1,0 +1,27 @@
+.section {
+  padding: 100px 0;
+  /* border-bottom: 1px solid #ddd; */
+}
+
+.sidebar {
+  position: fixed;
+  top: 5rem;
+  bottom: 0;
+  left: 7rem;
+  z-index: 100;
+  padding: 48px 0 0;
+  /* box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1); */
+  background: transparent;
+  width: 14%;
+}
+.nav-link {
+  color: #464646;
+}
+.nav-link.active {
+  font-weight: bold;
+  color: black !important;
+}
+.content div {
+  /* width: 80%; */
+  text-align: center;
+}
