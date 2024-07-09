@@ -11,11 +11,11 @@ export default function Porduct() {
         {/* ------------top--------------- */}
         <Row>
           <Col xs={12} md={6}>
-            <div className='py-20  md:border-r-2 text-center md:text-left'>
+            <div className='py-20  md:border-r-2 text-left md:text-left'>
               <h1 className='font-playfair md:text-5xl text-4xl'>
                 <i>Hello </i>! I'm Nicole,
               </h1>
-              <div class='scrolling-text mt-4 h-24 md:h-28'>
+              <div class='scrolling-text mt-4 h-24 md:h-14'>
                 <div className='font-playfair text-3xl md:text-4xl text-[#646464] '>
                   <p class='line'>I value accessibility</p>
                   <p class='line'>Best designs are intuitive & enjoyable</p>

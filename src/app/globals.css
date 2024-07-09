@@ -44,7 +44,7 @@ body {
   margin: 0;
   line-height: 1.5em;
   /* Adjust line-height to control the spacing between lines */
-  animation: scroll 8s linear infinite;
+  animation: scroll 12s linear infinite;
 }
 
 .line {
@@ -61,24 +61,24 @@ body {
 
   25%,
   45% {
-    transform: translateY(-3em);
+    transform: translateY(-1.5em);
     /* Scrolls up by two lines */
   }
 
   50%,
   70% {
-    transform: translateY(-6em);
+    transform: translateY(-3em);
     /* Scrolls up by four lines */
   }
 
   75%,
   95% {
-    transform: translateY(-9em);
+    transform: translateY(-4.5em);
     /* Scrolls up by six lines */
   }
 
   100% {
-    transform: translateY(-12em);
+    transform: translateY(-6em);
     /* Reset to the top */
   }
 }
@@ -121,7 +121,9 @@ body {
   opacity: 0.3;
 }
 
-#research .wrap, #final .wrap, #reflection .wrap {
+#research .wrap,
+#final .wrap,
+#reflection .wrap {
   background: #000;
   color: #fff;
   padding: 16px;
